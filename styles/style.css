@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    color:rgb(156, 18, 18);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    background-image: url(https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Teaser/eigene-app-erstellen-t.jpg);
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section{
+    min-width: 1000px;
+    margin: auto;
+    padding: 30px 0;
+}
+section h1{
+    font-size: 44px;
+}
+
+.conte{
+   text-align: center;
+}
+
+.conte p{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 1em 0;
+    
+}
+
+.conte a{
+    color:rgb(156, 18, 18);
+    text-decoration: none;
+    background:#8bc34a;
+    padding: 4px 20px;
+    border-radius: 30px;
+    font-size: 30px;
+    margin: 15px;
+
+}
+
+h2{
+    text-align: center;
+    font-size: 200%;
+    margin-top: 2%;
+}
+
+.contenedor{
+background: cyan;
+text-align: center;
+font-size: 150%;
+margin-top: 2%;
+border:black solid 3px;
+margin-left:25%;
+margin-right:25%;
+}
+
+.contenedor1{
+    background: cyan;
+    text-align: center;
+    font-size: 150%;
+    margin-top: 3%;
+    border:black solid 3px;
+    margin-left:25%;
+    margin-right:25%;
+    
+    }
+
+#Mensaje{
+background: rgb(236, 19, 19);
+background-color: black;
+} 
+
+.galeria{
+    padding: 3%;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    border-radius: 10%;
+    filter: brightness(70%);
+    animation: escalar 1.5s initial;
+    }
+    @keyframes escalar{
+     to{
+         transform: scale(1);
+         }
+         from{
+             transform: scale(1.05);
+         }
+    }
+ 
+    .galeria:hover{
+     filter: brightness(100%);
+ 
+    }
+}
+
+span{
+    text-align: center;
+
+}
